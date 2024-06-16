@@ -1,0 +1,47 @@
+bg:
+  color: [0.0, 0.0, 0.0]
+  optimization: true
+kmeans:
+  max_iter: 1000
+  stop_threshold: 0.0001
+  merge_threshold: 0.001
+  start_center_num: 30
+  max_fragments: 40
+area_threshold: 3
+cut_fragments: false
+save:
+  init: true
+  output: true
+  visualize_optimization: true
+  loss: true
+  mle: true
+print_values: false
+print_gradients: false
+num_iter: 1000
+regularization:
+  number: 20.0
+  type: 40.0
+  depth: 15.0
+reddy:
+  delete_freq: 100
+split:
+  delete_threshold: 0.8 # the deepest hidden layers will be deleted by this threshold
+  # this defines the rejection region which this layer is over the background
+  split_threshold: 3.0 # the ambiguous layers will be split by this threshold
+  # the higher, the less layers will be split
+  reserve_threshold: 0.3
+  age_threshold: 10
+seed: 42
+lr:
+  type: 0.03
+  color: 0.001
+  order: 0.05
+  triangle: 0.6
+  ellipse: 0.001
+  rectangle: 0.3
+boundary_error: 3 # to expand the body and shrink the extra region
+skip_portion: 10
+layer_samples: 1
+penal_samples: 200
+pyramid_levels: 4
+

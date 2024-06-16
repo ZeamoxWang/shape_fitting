@@ -1,0 +1,53 @@
+area_threshold: 3
+bg:
+  color:
+  - 0.0
+  - 0.0
+  - 0.0
+  optimization: true
+boundary_error: 3
+config: config/girl.yaml
+cut_fragments: false
+exid: 08203713
+experiment: null
+experiment_dir: log/08203713
+kmeans:
+  max_fragments: 40
+  max_iter: 1000
+  merge_threshold: 0.001
+  start_center_num: 30
+  stop_threshold: 0.0001
+layer_samples: 1
+log_dir: log
+lr:
+  color: 0.001
+  ellipse: 0.001
+  order: 0.05
+  rectangle: 0.3
+  triangle: 0.6
+  type: 0.03
+num_iter: 1000
+penal_samples: 200
+print_gradients: false
+print_values: false
+pyramid_levels: 4
+reddy:
+  delete_freq: 100
+regularization:
+  depth: 15.0
+  number: 20.0
+  type: 40.0
+save:
+  init: true
+  loss: true
+  mle: true
+  output: true
+  visualize_optimization: true
+seed: null
+skip_portion: 10
+split:
+  age_threshold: 10
+  delete_threshold: 0.8
+  reserve_threshold: 0.3
+  split_threshold: 3.0
+target: imgs/girl.png

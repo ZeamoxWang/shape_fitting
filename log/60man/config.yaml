@@ -1,0 +1,52 @@
+area_threshold: 3
+bg:
+  color:
+  - 0.96
+  - 0.678
+  - 0.255
+  optimization: true
+boundary_error: 3
+config: config/man.yaml
+exid: '04203151'
+experiment: null
+experiment_dir: log/04203151
+kmeans:
+  max_fragments: 60
+  max_iter: 1000
+  merge_threshold: 0.008
+  start_center_num: 30
+  stop_threshold: 0.001
+layer_samples: 1
+log_dir: log
+lr:
+  color: 0.001
+  ellipse: 0.01
+  order: 0.01
+  rectangle: 0.3
+  triangle: 0.6
+  type: 0.015
+num_iter: 700
+penal_samples: 200
+print_gradients: false
+print_values: false
+pyramid_levels: 4
+reddy:
+  delete_freq: 100
+regularization:
+  depth: 10.0
+  number: 40.0
+  type: 15.0
+save:
+  init: true
+  loss: true
+  mle: true
+  output: true
+  visualize_optimization: true
+seed: null
+skip_portion: 10
+split:
+  age_threshold: 10
+  delete_threshold: 0.7
+  reserve_threshold: 0.3
+  split_threshold: 4.5
+target: imgs/man.png

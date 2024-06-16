@@ -1,0 +1,25 @@
+bg_color: [1.0, 1.0, 1.0] # if it's None, it can be optimized
+kmeans:
+  max_iter: 100
+  stop_threshold: 0.1
+  merge_threshold: 0.001
+  start_center_num: 30
+area_threshold: 5
+save:
+  init: true
+  output: true
+  visualize_optimization: true
+  loss: true
+print_values: false
+print_gradients: false
+num_iter: 1000
+seed: 42
+lr:
+  type: 0.02
+  color: 0.001
+  translate: 0.003
+  scale: 0.0005
+  shear: 0.006
+  order: 0.05
+boundary_error: 2 # to expand the body and shrink the extra region
+
